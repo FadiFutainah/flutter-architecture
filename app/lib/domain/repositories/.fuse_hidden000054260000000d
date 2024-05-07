@@ -1,0 +1,7 @@
+abstract class FirebaseRepository {
+  get fcmToken;
+
+  Future<void> initFirebaseApp();
+
+  configureFCMListeners();
+}
