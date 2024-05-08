@@ -5,7 +5,7 @@ import 'package:get_it/get_it.dart';
 GetIt serviceLocator = GetIt.instance;
 
 void initServiceLocator() {
-  serviceLocator.registerLazySingleton<EntityRepository>(
-    () => EntityRepositoryImpl(),
+  serviceLocator.registerLazySingleton<PostRepository>(
+    () => PostRepositoryImpl(),
   );
 }

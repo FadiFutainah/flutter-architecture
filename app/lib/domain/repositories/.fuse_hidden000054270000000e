@@ -1,9 +1,0 @@
-import 'package:studentapp/data/models/response_entity.dart';
-
-abstract class PageRepository {
-  Future<ResponseEntity> getPage(int id);
-
-  Future<ResponseEntity> getEntryPage();
-
-  Future<ResponseEntity> getMyEntryPage();
- }

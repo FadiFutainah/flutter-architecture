@@ -1,5 +1,0 @@
-import 'package:studentapp/data/models/response_entity.dart';
-
-abstract class SystemInfoRepository {
-  Future<ResponseEntity> getSystemInfo();
-}

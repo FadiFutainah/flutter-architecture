@@ -2,16 +2,16 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part 'entity.freezed.dart';
-part 'entity.g.dart';
+part 'post.freezed.dart';
+part 'post.g.dart';
 
 @freezed
-class Entity with _$Entity {
+class Post with _$Post {
   @JsonSerializable(fieldRename: FieldRename.snake, explicitToJson: true)
-  const factory Entity({
+  const factory Post({
     String? key,
     String? value,
-  }) = _Entity;
+  }) = _Post;
 
-  factory Entity.fromJson(Map<String, dynamic> json) => _$EntityFromJson(json);
+  factory Post.fromJson(Map<String, dynamic> json) => _$PostFromJson(json);
 }
